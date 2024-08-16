@@ -4,7 +4,7 @@ import sys
 
 api_key = sys.argv[1]
 base_url = sys.argv[2]
-base_file_path = sys.argv[3]
+base_file_path="tools/inspection/script/ocr-azure"
 #base_url = "http://127.0.0.1:80"
 #
 
