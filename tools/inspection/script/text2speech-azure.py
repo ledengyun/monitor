@@ -2,10 +2,10 @@ import requests
 import json
 import sys
 import websocket
-#api_key = sys.argv[1]
-#base_url = sys.argv[2]
+api_key = sys.argv[1]
+base_url = sys.argv[2]
 #base_file_path = sys.argv[3]
-base_url = "ws://127.0.0.1:80"
+#base_url = "ws://127.0.0.1:80"
 url = base_url + "/stream/tts" #通过base_url拼接请求的url
 
 ws = websocket.create_connection(url)
