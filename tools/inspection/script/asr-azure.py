@@ -4,7 +4,7 @@ import sys
 import websocket
 api_key = sys.argv[1]
 base_url = sys.argv[2]
-base_file_path = sys.argv[3]
+base_file_path="tools/inspection/script/asr-azure"
 #base_url = "ws://127.0.0.1:80"
 #base_file_path="/Users/4paradigm/Downloads/project_code/ai-hardware/monitor-script"
 url = base_url + "/recognition" #通过base_url拼接请求的url
