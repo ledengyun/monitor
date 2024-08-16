@@ -2,9 +2,9 @@ import requests
 import json
 import sys
 
-#api_key = sys.argv[1]
-#base_url = sys.argv[2]
-base_url = "http://127.0.0.1:80"
+api_key = sys.argv[1]
+base_url = sys.argv[2]
+#base_url = "http://127.0.0.1:80"
 url = f'{base_url}/api/v1/generation/summarization' #通过base_url拼接请求的url
 
 json_data = {
