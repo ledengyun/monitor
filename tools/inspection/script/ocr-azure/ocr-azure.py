@@ -9,7 +9,9 @@ base_url = sys.argv[2]
 #
 
 #base_file_path="/Users/4paradigm/Downloads"
-url = base_url + "/api/v1/document-analysis" #通过base_url拼接请求的url
+#网关内url  http://ip:port/document-analysis
+#网关外url  http://ip:port/api/v1/document-analysis
+url = base_url  #通过base_url拼接请求的url
 base_file_path=os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(base_file_path,"zh_en.png")
 payload={}
